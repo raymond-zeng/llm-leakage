@@ -1,0 +1,16 @@
+name: leakage-llm
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+  - nvidia
+dependencies:
+  - cuda-toolkit=12.4
+  - python=3.11
+  - pip
+  - tqdm
+  - pip:
+    - torch
+    - torchvision
+    - unsloth
+    - vllm
