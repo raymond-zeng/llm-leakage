@@ -9,9 +9,10 @@ dependencies:
   - python=3.11
   - pip
   - tqdm
-  - ython-zlib-ng
+  - python-zlib-ng
   - pip:
     - torch
     - torchvision
     - unsloth
     - vllm
+    - diffusers
